@@ -137,10 +137,7 @@ int main()
 	       }
 	   }
 	   
-	    printf("Deleted element: %d",dequeue());
-	    printf("\nAfter dequeue\n");
-	    display();
-	    printf("\n%d",Front());
+
 		
    
     return 0;
