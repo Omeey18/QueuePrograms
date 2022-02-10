@@ -8,7 +8,7 @@ int queue[MAXSIZE];
 int front = -1;
 int rear = -1;
 */
-void enqueue(int value,int queue[],int * front, int *rear, int MAXSIZE)
+void enqueue(int value,int queue[],int *front, int *rear, int MAXSIZE)
 {
     if(*rear==MAXSIZE-1)
     {
